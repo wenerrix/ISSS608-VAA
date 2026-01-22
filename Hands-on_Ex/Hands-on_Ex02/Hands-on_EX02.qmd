@@ -92,7 +92,7 @@ ggplot(data=exam_data,
                  color="grey25", 
                  fill="grey90") +
   ggtitle("Distribution of Maths scores") +
-  theme_ipsum()
+  theme_ipsum(base_family = "sans")
 ```
 
 The second goal centers around productivity for a production workflow. In fact, this “production workflow” is the context for where the elements of hrbrthemes should be used. Consult this vignette to learn more.
@@ -107,7 +107,8 @@ ggplot(data=exam_data,
   ggtitle("Distribution of Maths scores") +
   theme_ipsum(axis_title_size = 18,
               base_size = 15,
-              grid = "Y")
+              grid = "Y",
+              base_family = "sans")
 ```
 
 ## 2.5 Beyond Single Graph
