@@ -134,7 +134,7 @@ ggplot(data=exam_data,
              size = 0.5)        
 ```
 
-# 1.8 Essential Grammatical Elements in ggplot2: stat 
+# 1.8 Essential Grammatical Elements in ggplot2: stat
 
 ### 1.8.1 Working with stat()
 
@@ -188,7 +188,7 @@ ggplot(data=exam_data,
               linewidth=0.5)
 ```
 
-# 1.9 Essential Grammatical Elements in ggplot2: Facets 
+# 1.9 Essential Grammatical Elements in ggplot2: Facets
 
 ## 1.9.1 Working with facet_wrap()
 
@@ -208,7 +208,7 @@ ggplot(data=exam_data,
     facet_grid(~ CLASS)
 ```
 
-# 1.10 Essential Grammatical Elements in ggplot2: Coordinates 
+# 1.10 Essential Grammatical Elements in ggplot2: Coordinates
 
 ## 1.10.1 Working with Coordinate
 
@@ -246,9 +246,9 @@ ggplot(data=exam_data,
                   ylim=c(0,100))
 ```
 
-# 1.11 Essential Grammatical Elements in ggplot2: themes 
+# 1.11 Essential Grammatical Elements in ggplot2: themes
 
-## 1.11.1 Working with theme 
+## 1.11.1 Working with theme
 
 ### theme_gray()
 
