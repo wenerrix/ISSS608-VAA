@@ -20,7 +20,7 @@ pacman::p_load(ggiraph, plotly,
 ## 3.3 Importing Data
 
 ```{r}
-exam_data <- read_csv("chap03/data/Exam_data.csv")
+exam_data <- read_csv("data/Exam_data.csv")
 ```
 
 ## 3.4 Interactive Data Visualisation - ggiraph methods
@@ -371,7 +371,7 @@ The data_id aesthetic is critical to link observations between plots and the too
 
 Plotly’s R graphing library create interactive web graphics from ggplot2 graphs and/or a custom interface to the (MIT-licensed) JavaScript library plotly.js inspired by the grammar of graphics. Different from other plotly platform, plot.R is free and open source.
 
-![](Hands-on_Ex/Hands-on_EX03/data/image2.jpg)
+![](data/image2.jpg)
 
 There are two ways to create interactive graph by using plotly, they are:
 
