@@ -73,6 +73,7 @@ Things to learn from the code chunk above.
 The code chunk below plots a funnel plot.
 
 ```{r}
+#| warning: false
 funnel_plot(
   .data = covid19,
   numerator = Death,
@@ -91,6 +92,7 @@ Things to learn from the code chunk above. + `data_type` argument is used to c
 The code chunk below plots a funnel plot.
 
 ```{r}
+#| warning: false
 funnel_plot(
   .data = covid19,
   numerator = Death,
