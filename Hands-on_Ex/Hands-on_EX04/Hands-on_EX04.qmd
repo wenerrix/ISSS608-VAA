@@ -34,6 +34,7 @@ For the purpose of this exercise, Exam_data.csv will be used.
 In the code chunk below, [read_csv()](https://readr.tidyverse.org/reference/read_delim.html) of [readr](https://readr.tidyverse.org/) package is used to import Exam_data.csv into R and saved it into a tibble data.frame.
 
 ```{r}
+#| warning: false
 exam <- read_csv("data/Exam_data.csv")
 ```
 
