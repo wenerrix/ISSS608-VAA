@@ -117,6 +117,7 @@ ggplot(my_sum) +
 In this section, you will learn how to plot interactive error bars for the 99% confidence interval of mean maths score by race as shown in the figure below.
 
 ```{r}
+#| warning: false
 shared_df = SharedData$new(my_sum)
 
 bscols(widths = c(4,8),
@@ -180,6 +181,7 @@ bscols(widths = c(4,8),
 In the code chunk below, [`stat_pointinterval()`](https://mjskay.github.io/ggdist/reference/stat_pointinterval.html) of **ggdist** is used to build a visual for displaying distribution of maths scores by race.
 
 ```{r}
+#| warning: false
 exam %>%
   ggplot(aes(x = RACE, 
              y = MATHS)) +
@@ -196,6 +198,7 @@ For example, in the code chunk below the following arguments are used:
 -   .interval = qi
 
 ```{r}
+#| warning: false
 exam %>%
   ggplot(aes(x = RACE, y = MATHS)) +
   stat_pointinterval(.width = 0.95,
