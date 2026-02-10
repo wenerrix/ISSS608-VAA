@@ -1,12 +1,14 @@
 ---
 title: "Take_Home_Exercise_1"
 author: "WEN Po-Yang"
+date: last-modified
+date-format: "YYYY-MM-DD HH:mm"
 format:
   html:
-    css: styles.css
+    css: styles_the4.css
 ---
 
-# 1.Overview 
+# 1.Overview
 
 This take-home exercise transforms raw survey responses into decision-relevant insights using visually-driven survey analysis. The dataset contains demographic/background variables (e.g., study year, gender, parental education) and multiple Likert-scale items describing perceived learning conditions and support.
 
@@ -706,7 +708,7 @@ p_friends_gpa
 ```
 :::
 
-## Observation 7 — Heavy social media use shows a negative GPA trend (especially “Over 4 hours”)
+## Observation 7 — Heavy social media use shows a negative GPA trend
 
 GPA shows a downward trend as reported time spent on social media increases. Respondents in the lowest usage groups tend to have slightly higher mean GPA categories, while the “Over 4 hours” group exhibits the lowest mean GPA. Although the differences are not necessarily large, the monotonic pattern suggests a consistent association between heavier social media use and weaker academic performance in this sample. This observation should not be interpreted causally: higher social media use may reflect underlying factors such as time management challenges, stress coping behaviors, or differences in study routines. Nevertheless, because the predictor is behavioral and ordered, the visual trend is informative and complements the perception-based findings, offering a practical angle for discussion about student habits and academic outcomes.
 

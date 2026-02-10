@@ -3,8 +3,9 @@ project:
 
 website:
   title: "ISSS608-VAA"
-  favicon: "ISSS608-VAA/icon/cat_48x48.png"
+  favicon: "icon/cat.png"
   navbar:
+    logo: "icon/cat.png"
     left:
       - text: "Hands-on Exercise"
         icon: "clipboard-data"
@@ -41,7 +42,7 @@ format:
   html:
     theme:
       - cosmos
-    css: styles.css
+    css: styles_index.css
     toc: true
 
 editor: visual

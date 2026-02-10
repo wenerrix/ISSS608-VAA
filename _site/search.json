@@ -474,5 +474,12 @@
     "title": "ISSS608-VAA",
     "section": "",
     "text": "Welcome to ISSS608-Visual Analytics and Application. In this website you will find my coursework prepared for this course."
+  },
+  {
+    "objectID": "TakeHome_EX1/Take-Home Exercise 1.html#observation-7-heavy-social-media-use-shows-a-negative-gpa-trend",
+    "href": "TakeHome_EX1/Take-Home Exercise 1.html#observation-7-heavy-social-media-use-shows-a-negative-gpa-trend",
+    "title": "Take_Home_Exercise_1",
+    "section": "Observation 7 — Heavy social media use shows a negative GPA trend",
+    "text": "Observation 7 — Heavy social media use shows a negative GPA trend\nGPA shows a downward trend as reported time spent on social media increases. Respondents in the lowest usage groups tend to have slightly higher mean GPA categories, while the “Over 4 hours” group exhibits the lowest mean GPA. Although the differences are not necessarily large, the monotonic pattern suggests a consistent association between heavier social media use and weaker academic performance in this sample. This observation should not be interpreted causally: higher social media use may reflect underlying factors such as time management challenges, stress coping behaviors, or differences in study routines. Nevertheless, because the predictor is behavioral and ordered, the visual trend is informative and complements the perception-based findings, offering a practical angle for discussion about student habits and academic outcomes.\n\nThe PlotThe Code Chunk\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nsurvey |&gt;\n  filter(!is.na(time_socical_media), !is.na(gpa_num)) |&gt;\n  group_by(time_socical_media) |&gt;\n  summarise(\n    mean_gpa = mean(gpa_num),\n    se = sd(gpa_num) / sqrt(n()),\n    .groups = \"drop\"\n  ) |&gt;\n  ggplot(aes(x = time_socical_media, y = mean_gpa, group = 1)) +\n  geom_line() +\n  geom_point(size = 2) +\n  geom_errorbar(aes(ymin = mean_gpa - 1.96 * se, ymax = mean_gpa + 1.96 * se), width = 0.1) +\n  scale_y_continuous(breaks = 1:5) +\n  labs(x = NULL, y = \"Mean GPA category (1=Poor … 5=Excellent)\",\n       title = \"GPA trend by time spent on social media\") +\n  theme_minimal() +\n  theme(axis.text.x = element_text(angle = 20, hjust = 1))"
   }
 ]
