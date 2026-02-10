@@ -3,9 +3,11 @@ project:
 
 website:
   title: "ISSS608-VAA"
+  favicon: "ISSS608-VAA/icon/cat_48x48.png"
   navbar:
     left:
       - text: "Hands-on Exercise"
+        icon: "clipboard-data"
         menu: 
           - text: "Hands-on Exercise 1"
             href: "Hands-on_Ex/Hands-on_Ex01/Hands-on_Ex01.html"
@@ -27,15 +29,14 @@ website:
     right: 
       - href: index.qmd
         text: Home
+        icon: "house"
       - about.qmd
 
 format:
   html:
     theme:
       - cosmos
-      - brand
     css: styles.css
     toc: true
 
 editor: visual
-
