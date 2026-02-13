@@ -759,3 +759,49 @@ survey |>
   theme(axis.text.x = element_text(angle = 20, hjust = 1))
 ```
 :::
+
+# 4.Overall Summary of Findings
+
+Across the seven observations, several consistent patterns emerged regarding students’ academic performance and their perceived learning environment. First, GPA distribution appears moderately concentrated in the middle-to-upper categories, suggesting that the majority of students perceive their academic standing as satisfactory or above average.
+
+Second, institutional factors such as lecturer quality, curriculum suitability, and university facilities demonstrate noticeable variation in student evaluations. While overall ratings tend toward the positive range, dispersion patterns indicate that certain subgroups experience the learning environment differently.
+
+Third, perceived academic adaptation, study methods, and institutional support show meaningful associations with GPA levels. Students reporting stronger adaptation and more effective study strategies generally fall within higher GPA categories. In contrast, time allocation variables reveal mixed relationships, indicating that academic performance is influenced not only by effort quantity but also by perceived learning quality and support structures.
+
+Finally, peer influence and competitive classroom environments appear to shape students’ academic experience, though their impact seems more contextual than deterministic.
+
+Collectively, these findings suggest that academic performance is not driven by a single variable but rather by a combination of individual learning behaviors and institutional support mechanisms.
+
+# 5.Key Takeaways and Implications
+
+-    Improving teaching quality and curriculum alignment may indirectly enhance student performance, as institutional perception is closely linked with academic outcomes.
+
+-    Academic adaptation and study strategies should be prioritized in student support programs, as they demonstrate stronger association with higher GPA levels than time investment alone.
+
+-    Targeted academic interventions may be more effective than universal policies, especially for students reporting weaker adaptation or lower institutional support.
+
+-    Learning environment improvements (facilities, lecturer engagement, structured support) could produce long-term benefits, beyond short-term grade improvements.
+
+-    Balanced peer environments that encourage collaboration rather than excessive competition may foster healthier academic development.
+
+-    Sustainable academic success likely requires coordinated efforts at both the individual and institutional levels.
+
+# 6.Limitations
+
+-   The analysis is based on self-reported survey data, which may be subject to response bias and social desirability effects.
+
+<!-- -->
+
+-    The cross-sectional design limits the ability to infer causal relationships between academic performance and perceived institutional factors.
+
+<!-- -->
+
+-    Likert-scale responses are treated as ordinal measures, which may constrain the interpretation of mean-based comparisons.
+
+<!-- -->
+
+-    The dataset reflects perceptions within a specific institutional context, potentially limiting generalizability to other universities or student populations.
+
+<!-- -->
+
+-    Some relationships observed may be influenced by unmeasured confounding variables (e.g., prior academic ability or socioeconomic background).
