@@ -34,7 +34,7 @@ pacman::p_load(scales, viridis, lubridate, ggthemes,
 
 In this section, you will learn how to plot a calender heatmap programmatically by using ggplot2 package.
 
-![](Hands-on_Ex/Hands-on_EX07/image01.png)
+![](image01.png)
 
 By the end of this section, you will be able to:
 
