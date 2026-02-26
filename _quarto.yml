@@ -36,6 +36,8 @@ website:
             href: "Hands-on_Ex/Hands-on_EX05/Hands-on_EX05_4.html"
           - text: "Hands-on Exercise 5_5"
             href: "Hands-on_Ex/Hands-on_EX05/Hands-on_EX05_5.html"
+          - text: "Hands-on Exercise 7"
+            href: "Hands-on_Ex/Hands-on_EX07/Hands-on_EX07.html"
       - text: "Take Home Exercise"
         icon: "database-fill-gear"
         menu: 

@@ -774,17 +774,17 @@ Collectively, these findings suggest that academic performance is not driven by 
 
 # 5.Key Takeaways and Implications
 
--    Improving teaching quality and curriculum alignment may indirectly enhance student performance, as institutional perception is closely linked with academic outcomes.
+-   Improving teaching quality and curriculum alignment may indirectly enhance student performance, as institutional perception is closely linked with academic outcomes.
 
--    Academic adaptation and study strategies should be prioritized in student support programs, as they demonstrate stronger association with higher GPA levels than time investment alone.
+-   Academic adaptation and study strategies should be prioritized in student support programs, as they demonstrate stronger association with higher GPA levels than time investment alone.
 
--    Targeted academic interventions may be more effective than universal policies, especially for students reporting weaker adaptation or lower institutional support.
+-   Targeted academic interventions may be more effective than universal policies, especially for students reporting weaker adaptation or lower institutional support.
 
--    Learning environment improvements (facilities, lecturer engagement, structured support) could produce long-term benefits, beyond short-term grade improvements.
+-   Learning environment improvements (facilities, lecturer engagement, structured support) could produce long-term benefits, beyond short-term grade improvements.
 
--    Balanced peer environments that encourage collaboration rather than excessive competition may foster healthier academic development.
+-   Balanced peer environments that encourage collaboration rather than excessive competition may foster healthier academic development.
 
--    Sustainable academic success likely requires coordinated efforts at both the individual and institutional levels.
+-   Sustainable academic success likely requires coordinated efforts at both the individual and institutional levels.
 
 # 6.Limitations
 
@@ -792,16 +792,16 @@ Collectively, these findings suggest that academic performance is not driven by 
 
 <!-- -->
 
--    The cross-sectional design limits the ability to infer causal relationships between academic performance and perceived institutional factors.
+-   The cross-sectional design limits the ability to infer causal relationships between academic performance and perceived institutional factors.
 
 <!-- -->
 
--    Likert-scale responses are treated as ordinal measures, which may constrain the interpretation of mean-based comparisons.
+-   Likert-scale responses are treated as ordinal measures, which may constrain the interpretation of mean-based comparisons.
 
 <!-- -->
 
--    The dataset reflects perceptions within a specific institutional context, potentially limiting generalizability to other universities or student populations.
+-   The dataset reflects perceptions within a specific institutional context, potentially limiting generalizability to other universities or student populations.
 
 <!-- -->
 
--    Some relationships observed may be influenced by unmeasured confounding variables (e.g., prior academic ability or socioeconomic background).
+-   Some relationships observed may be influenced by unmeasured confounding variables (e.g., prior academic ability or socioeconomic background).
