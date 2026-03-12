@@ -8,9 +8,7 @@ format:
     css: styles_the4.css
 ---
 
-# Module #3 of the Final Project :
-
-# **Decision Tree** Explorer for CLV Segment Analysis
+# Module #3 of the Final Project :**Decision Tree** Explorer for CLV Segment Analysis
 
 ## 1.Introduction:
 
@@ -20,7 +18,9 @@ The aim of this module is to help users identify which customer characteristics 
 
 A decision tree approach is selected because it is highly interpretable and can translate predictive patterns into simple if-then business rules.
 
-## 2.1 Data Source and Preparation:
+## 2.Data Source
+
+### 2.1 Data Source and Preparation:
 
 This prototype is based on two datasets:
 
@@ -29,7 +29,7 @@ This prototype is based on two datasets:
 
 The current prototype primarily uses \*\*\`customer_data.csv\`\*\* as the modeling table because it already contains customer-level demographic, product, behavioural, satisfaction, and value-related variables. The transaction-level dataset, \`transactions_data.csv\`, is reserved for future extension, where additional aggregated transaction features may be engineered and merged into the modeling dataset.
 
-## 2.2 Analytical target
+### 2.2 Analytical target
 
 The selected target variable is: clv_segment
 
@@ -44,7 +44,7 @@ The key analytical question is:
 
 **Which customer characteristics are most strongly associated with different CLV segments?**
 
-## 2.3 Variable selection
+### 2.3 Variable selection
 
 To reduce unnecessary complexity in the first prototype, predictors are selected from several meaningful groups:
 
@@ -83,7 +83,7 @@ Example predictors include:
 -   `app_store_rating`
 -   `feedback_sentiment`
 
-## 2.4 Excluded variables and leakage prevention
+### 2.4 Excluded variables and leakage prevention
 
 Some variables are excluded to avoid **data leakage** or analytical redundancy. These include:
 
@@ -96,7 +96,7 @@ Some variables are excluded to avoid **data leakage** or analytical redundancy. 
 
 The main reason for excluding these fields is that they either function as identifiers or are too directly related to the target definition. Including such variables would artificially inflate model performance and reduce the interpretability value of the prototype.
 
-## 2.5 Data cleaning and preprocessing
+### 2.5 Data cleaning and preprocessing
 
 The following preprocessing steps are applied:
 
@@ -201,7 +201,7 @@ pacman::p_load(
 )
 ```
 
-## 4.2 Loading the Dataset
+### 4.2 Loading the Dataset
 
 Two datasets are provided in the project:
 
