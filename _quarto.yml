@@ -49,6 +49,10 @@ website:
         menu: 
           - text: "Take Home Exercise 1"
             href: "TakeHome_EX1/Take-Home%20Exercise%201.html"
+          - text: "Take Home Exercise 2 (Project Prototype)"
+            href: "Project/TH2_DecisionTree.html"
+          - text: "Storyboard & UI"
+            href: "Project/storyboard.html"
             
     right: 
       - href: index.qmd
