@@ -257,15 +257,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#module-3-of-the-final-project" id="toc-module-3-of-the-final-project" class="nav-link active" data-scroll-target="#module-3-of-the-final-project">Module #3 of the Final Project :</a></li>
-  <li><a href="#decision-tree-explorer-for-clv-segment-analysis" id="toc-decision-tree-explorer-for-clv-segment-analysis" class="nav-link" data-scroll-target="#decision-tree-explorer-for-clv-segment-analysis"><strong>Decision Tree</strong> Explorer for CLV Segment Analysis</a>
+  <li><a href="#module-3-of-the-final-project-decision-tree-explorer-for-clv-segment-analysis" id="toc-module-3-of-the-final-project-decision-tree-explorer-for-clv-segment-analysis" class="nav-link active" data-scroll-target="#module-3-of-the-final-project-decision-tree-explorer-for-clv-segment-analysis">Module #3 of the Final Project :<strong>Decision Tree</strong> Explorer for CLV Segment Analysis</a>
   <ul class="collapse">
   <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">1.Introduction:</a></li>
+  <li><a href="#data-source" id="toc-data-source" class="nav-link" data-scroll-target="#data-source">2.Data Source</a>
+  <ul class="collapse">
   <li><a href="#data-source-and-preparation" id="toc-data-source-and-preparation" class="nav-link" data-scroll-target="#data-source-and-preparation">2.1 Data Source and Preparation:</a></li>
   <li><a href="#analytical-target" id="toc-analytical-target" class="nav-link" data-scroll-target="#analytical-target">2.2 Analytical target</a></li>
   <li><a href="#variable-selection" id="toc-variable-selection" class="nav-link" data-scroll-target="#variable-selection">2.3 Variable selection</a></li>
   <li><a href="#excluded-variables-and-leakage-prevention" id="toc-excluded-variables-and-leakage-prevention" class="nav-link" data-scroll-target="#excluded-variables-and-leakage-prevention">2.4 Excluded variables and leakage prevention</a></li>
   <li><a href="#data-cleaning-and-preprocessing" id="toc-data-cleaning-and-preprocessing" class="nav-link" data-scroll-target="#data-cleaning-and-preprocessing">2.5 Data cleaning and preprocessing</a></li>
+  </ul></li>
   <li><a href="#analytical-design" id="toc-analytical-design" class="nav-link" data-scroll-target="#analytical-design">3. Analytical Design</a>
   <ul class="collapse">
   <li><a href="#why-decision-tree" id="toc-why-decision-tree" class="nav-link" data-scroll-target="#why-decision-tree">3.1 Why decision tree?</a></li>
@@ -275,9 +277,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#prototype-implementation" id="toc-prototype-implementation" class="nav-link" data-scroll-target="#prototype-implementation">4. Prototype Implementation</a>
   <ul class="collapse">
   <li><a href="#loading-required-r-packages" id="toc-loading-required-r-packages" class="nav-link" data-scroll-target="#loading-required-r-packages">4.1 Loading Required R Packages</a></li>
-  </ul></li>
-  <li><a href="#loading-the-dataset" id="toc-loading-the-dataset" class="nav-link" data-scroll-target="#loading-the-dataset">4.2 Loading the Dataset</a>
-  <ul class="collapse">
+  <li><a href="#loading-the-dataset" id="toc-loading-the-dataset" class="nav-link" data-scroll-target="#loading-the-dataset">4.2 Loading the Dataset</a></li>
   <li><a href="#data-preprocessing" id="toc-data-preprocessing" class="nav-link" data-scroll-target="#data-preprocessing">4.3 Data Preprocessing</a></li>
   <li><a href="#selecting-predictors" id="toc-selecting-predictors" class="nav-link" data-scroll-target="#selecting-predictors">4.4 Selecting Predictors</a></li>
   <li><a href="#train-test-split" id="toc-train-test-split" class="nav-link" data-scroll-target="#train-test-split">4.5 Train-Test Split</a></li>
@@ -313,7 +313,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2026-03-12 16:37</p>
+      <p class="date">2026-03-12 17:14</p>
     </div>
   </div>
   
@@ -325,11 +325,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="module-3-of-the-final-project" class="level1">
-<h1>Module #3 of the Final Project :</h1>
-</section>
-<section id="decision-tree-explorer-for-clv-segment-analysis" class="level1">
-<h1><strong>Decision Tree</strong> Explorer for CLV Segment Analysis</h1>
+<section id="module-3-of-the-final-project-decision-tree-explorer-for-clv-segment-analysis" class="level1">
+<h1>Module #3 of the Final Project :<strong>Decision Tree</strong> Explorer for CLV Segment Analysis</h1>
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">1.Introduction:</h2>
 <p>This prototype focuses on the Decision Tree Analysis module of our final visual analytics project.<br>
@@ -338,8 +335,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </p>
 <p>A decision tree approach is selected because it is highly interpretable and can translate predictive patterns into simple if-then business rules.</p>
 </section>
-<section id="data-source-and-preparation" class="level2">
-<h2 class="anchored" data-anchor-id="data-source-and-preparation">2.1 Data Source and Preparation:</h2>
+<section id="data-source" class="level2">
+<h2 class="anchored" data-anchor-id="data-source">2.Data Source</h2>
+<section id="data-source-and-preparation" class="level3">
+<h3 class="anchored" data-anchor-id="data-source-and-preparation">2.1 Data Source and Preparation:</h3>
 <p>This prototype is based on two datasets:</p>
 <ul>
 <li>customer_data.csv</li>
@@ -347,8 +346,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <p>The current prototype primarily uses **`customer_data.csv`** as the modeling table because it already contains customer-level demographic, product, behavioural, satisfaction, and value-related variables. The transaction-level dataset, `transactions_data.csv`, is reserved for future extension, where additional aggregated transaction features may be engineered and merged into the modeling dataset.</p>
 </section>
-<section id="analytical-target" class="level2">
-<h2 class="anchored" data-anchor-id="analytical-target">2.2 Analytical target</h2>
+<section id="analytical-target" class="level3">
+<h3 class="anchored" data-anchor-id="analytical-target">2.2 Analytical target</h3>
 <p>The selected target variable is: clv_segment</p>
 <p>This variable is suitable for a decision tree prototype because:</p>
 <ol type="1">
@@ -360,8 +359,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>The key analytical question is:</p>
 <p><strong>Which customer characteristics are most strongly associated with different CLV segments?</strong></p>
 </section>
-<section id="variable-selection" class="level2">
-<h2 class="anchored" data-anchor-id="variable-selection">2.3 Variable selection</h2>
+<section id="variable-selection" class="level3">
+<h3 class="anchored" data-anchor-id="variable-selection">2.3 Variable selection</h3>
 <p>To reduce unnecessary complexity in the first prototype, predictors are selected from several meaningful groups:</p>
 <ul>
 <li>demographic variables,</li>
@@ -400,8 +399,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><code>feedback_sentiment</code></li>
 </ul>
 </section>
-<section id="excluded-variables-and-leakage-prevention" class="level2">
-<h2 class="anchored" data-anchor-id="excluded-variables-and-leakage-prevention">2.4 Excluded variables and leakage prevention</h2>
+<section id="excluded-variables-and-leakage-prevention" class="level3">
+<h3 class="anchored" data-anchor-id="excluded-variables-and-leakage-prevention">2.4 Excluded variables and leakage prevention</h3>
 <p>Some variables are excluded to avoid <strong>data leakage</strong> or analytical redundancy. These include:</p>
 <ul>
 <li><code>customer_id</code></li>
@@ -413,8 +412,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <p>The main reason for excluding these fields is that they either function as identifiers or are too directly related to the target definition. Including such variables would artificially inflate model performance and reduce the interpretability value of the prototype.</p>
 </section>
-<section id="data-cleaning-and-preprocessing" class="level2">
-<h2 class="anchored" data-anchor-id="data-cleaning-and-preprocessing">2.5 Data cleaning and preprocessing</h2>
+<section id="data-cleaning-and-preprocessing" class="level3">
+<h3 class="anchored" data-anchor-id="data-cleaning-and-preprocessing">2.5 Data cleaning and preprocessing</h3>
 <p>The following preprocessing steps are applied:</p>
 <ol type="1">
 <li>remove identifier and leakage-prone columns,</li>
@@ -429,6 +428,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><strong>categorical variables</strong>: assigned an <code>"Unknown"</code> category.</li>
 </ul>
 <p>This strategy is sufficient for the prototype stage because the main objective is to validate analytical feasibility and support UI design, rather than maximize model performance.</p>
+</section>
 </section>
 <section id="analytical-design" class="level2">
 <h2 class="anchored" data-anchor-id="analytical-design">3. Analytical Design</h2>
@@ -517,9 +517,8 @@ The workflow includes:</p>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
-</section>
-<section id="loading-the-dataset" class="level2">
-<h2 class="anchored" data-anchor-id="loading-the-dataset">4.2 Loading the Dataset</h2>
+<section id="loading-the-dataset" class="level3">
+<h3 class="anchored" data-anchor-id="loading-the-dataset">4.2 Loading the Dataset</h3>
 <p>Two datasets are provided in the project:</p>
 <ul>
 <li><strong>customer_data.csv</strong> – customer-level features</li>
@@ -621,6 +620,7 @@ $ customer_lifetime_value    &lt;dbl&gt; 312414808, 167022286, 19403711, 3597810
 <li>customer value metrics</li>
 <li>CLV segment label</li>
 </ul>
+</section>
 <section id="data-preprocessing" class="level3">
 <h3 class="anchored" data-anchor-id="data-preprocessing">4.3 Data Preprocessing</h3>
 <p>To prepare the dataset for modeling, several preprocessing steps are performed.</p>
