@@ -55,7 +55,19 @@ website:
             href: "Project/TH2_DecisionTree.html"
           - text: "Storyboard & UI"
             href: "Project/storyboard.html"
-            
+      - text: "Final Project Proposal"
+        icon: "database-fill-gear"
+        menu: 
+          - text: "EDA"
+            href: "Project/EDA.html"
+          - text: "Clustering"
+            href: "Project/Clustering.html"
+          - text: "Decision Tree"
+            href: "Project/TH2_DecisionTree.html"
+          - text: "Story Board & UI"
+            href: "Project/storyboard.html"  
+          - text: "Minutes of Meeting"
+            href: "Project/minutes%20of%20meeting.html"  
     right: 
       - href: index.qmd
         text: Home
